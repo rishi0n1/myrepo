@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        @keyframes animi1 {
+            from{
+                background-image: url(../assets/images/jan.jpg);
+               background-position: top;
+               background-size: cover;
+                    /* border: 10px rgb(1, 142, 18); */
+                    border-radius: 200px;
+            }
+            to{
+                  /* background-color: chocolate; */
+                  transform: translate(120px);
+                  background-image: url(../assets/images/20190613140728_IMG_2320.JPG);
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                 
+            }
+        }
+        .m1{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            animation-name: animi1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /* animation-direction:; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="m1"></div>
+</body>
+</html>
